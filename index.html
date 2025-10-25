@@ -282,6 +282,11 @@
                 max-width: 100%;
             }
 
+            /* Make footer responsive */
+            div[style*="background: #2c3e50"] {
+                padding: 30px 15px !important;
+            }
+
             /* Reduce padding on all analysis sections */
             div[style*="padding: 25px"] {
                 padding: 15px !important;
@@ -301,13 +306,22 @@
 
             /* Adjust footer links for mobile */
             div[style*="font-size: 2rem"] a {
-                font-size: 1.5rem !important;
-                padding: 15px 30px !important;
+                font-size: 1.2rem !important;
+                padding: 15px 20px !important;
+                word-wrap: break-word !important;
+                max-width: 90% !important;
             }
 
             div[style*="font-size: 1.8rem"] a {
-                font-size: 1.3rem !important;
-                padding: 15px 30px !important;
+                font-size: 1rem !important;
+                padding: 15px 20px !important;
+                word-wrap: break-word !important;
+                max-width: 90% !important;
+            }
+
+            div[style*="font-size: 1.4rem"] a {
+                font-size: 1.1rem !important;
+                padding: 12px 20px !important;
             }
 
             /* Adjust testimonial grids for mobile */
@@ -341,8 +355,25 @@
             div[style*="padding: 25px"],
             div[style*="padding: 30px"],
             div[style*="padding: 32px"],
-            div[style*="padding: 40px"] {
+            div[style*="padding: 40px"],
+            div[style*="padding: 50px"] {
                 padding: 10px !important;
+            }
+
+            /* Make footer buttons even smaller on very small screens */
+            div[style*="font-size: 2rem"] a {
+                font-size: 0.95rem !important;
+                padding: 12px 15px !important;
+            }
+
+            div[style*="font-size: 1.8rem"] a {
+                font-size: 0.85rem !important;
+                padding: 12px 15px !important;
+            }
+
+            div[style*="font-size: 1.4rem"] a {
+                font-size: 0.9rem !important;
+                padding: 10px 15px !important;
             }
         }
     </style>
@@ -1101,27 +1132,27 @@
                 <iframe loading="lazy" style="width: 100%; height: 120px; border: none; padding: 0; margin: 0; background: transparent;" src="https://www.canva.com/design/DAG2a_N00HI/MCb1a3SkyjhfsUZZtpdwhw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
             </div>
 
-            <div style="margin-top: 40px;">
+            <div style="margin-top: 40px; width: 100%; max-width: 100%;">
                 <!-- Website Link - Large and Prominent -->
-                <div style="margin-bottom: 40px;">
-                    <a href="https://www.ambitionsportsperformance.com" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f97316 0%, #ff8c42 100%); color: white; font-size: 2rem; font-weight: 800; text-decoration: none; padding: 20px 50px; border-radius: 12px; box-shadow: 0 8px 20px rgba(249, 115, 22, 0.4); transition: transform 0.3s, box-shadow 0.3s;">
+                <div style="margin-bottom: 40px; width: 100%; display: flex; justify-content: center;">
+                    <a href="https://www.ambitionsportsperformance.com" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #f97316 0%, #ff8c42 100%); color: white; font-size: 2rem; font-weight: 800; text-decoration: none; padding: 20px 50px; border-radius: 12px; box-shadow: 0 8px 20px rgba(249, 115, 22, 0.4); transition: transform 0.3s, box-shadow 0.3s; text-align: center; word-wrap: break-word; max-width: 95%;">
                         www.ambitionsportsperformance.com
                     </a>
                 </div>
 
                 <!-- Instagram - Large and Eye-Catching -->
-                <div style="margin-bottom: 30px;">
-                    <a href="https://www.instagram.com/ambitionsportsperformance" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #E1306C 0%, #F56040 50%, #FCAF45 100%); color: white; text-decoration: none; font-size: 1.8rem; font-weight: 800; padding: 18px 45px; border-radius: 12px; box-shadow: 0 8px 20px rgba(225, 48, 108, 0.4); transition: transform 0.3s, box-shadow 0.3s;">
+                <div style="margin-bottom: 30px; width: 100%; display: flex; justify-content: center;">
+                    <a href="https://www.instagram.com/ambitionsportsperformance" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #E1306C 0%, #F56040 50%, #FCAF45 100%); color: white; text-decoration: none; font-size: 1.8rem; font-weight: 800; padding: 18px 45px; border-radius: 12px; box-shadow: 0 8px 20px rgba(225, 48, 108, 0.4); transition: transform 0.3s, box-shadow 0.3s; text-align: center; word-wrap: break-word; max-width: 95%;">
                         📸 Instagram: @ambitionsportsperformance
                     </a>
                 </div>
 
-                <div style="display: flex; flex-direction: column; gap: 20px; align-items: center; margin-top: 30px;">
-                    <a href="https://youtube.com/@ambitionfootball?si=0UXG4OsP51yW2SaC" target="_blank" style="display: inline-block; background: #FF0000; color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700; padding: 15px 35px; border-radius: 8px; transition: transform 0.3s;">
+                <div style="display: flex; flex-direction: column; gap: 20px; align-items: center; margin-top: 30px; width: 100%;">
+                    <a href="https://youtube.com/@ambitionfootball?si=0UXG4OsP51yW2SaC" target="_blank" style="display: inline-block; background: #FF0000; color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700; padding: 15px 35px; border-radius: 8px; transition: transform 0.3s; text-align: center; max-width: 95%;">
                         ▶️ YouTube: Ambition Football
                     </a>
 
-                    <a href="https://subscribepage.io/YF641F" target="_blank" style="display: inline-block; background: #3498db; color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700; padding: 15px 35px; border-radius: 8px; transition: transform 0.3s;">
+                    <a href="https://subscribepage.io/YF641F" target="_blank" style="display: inline-block; background: #3498db; color: white; text-decoration: none; font-size: 1.4rem; font-weight: 700; padding: 15px 35px; border-radius: 8px; transition: transform 0.3s; text-align: center; max-width: 95%;">
                         ⭐ Success Stories
                     </a>
                 </div>
